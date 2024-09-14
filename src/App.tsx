@@ -68,6 +68,7 @@ export const App: React.FC = () => {
 
       <div className="todoapp__content">
         <Header />
+        {/* <p>demention</p> */}
 
         <List visibleTodos={visibleTodos} />
 
