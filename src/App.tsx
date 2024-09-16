@@ -54,21 +54,12 @@ export const App: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // //for focus on edited todo
-  // useEffect(() => {
-  //   if (editSelectedInput.current) {
-  //     editSelectedInput.current.focus();
-  //   }
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [isEdited]);
-
   return (
     <div className="todoapp">
       <h1 className="todoapp__title">todos</h1>
 
       <div className="todoapp__content">
         <Header />
-        {/* <p>demention</p> */}
 
         <List visibleTodos={visibleTodos} />
 
